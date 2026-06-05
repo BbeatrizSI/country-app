@@ -1,0 +1,6 @@
+@import "tailwindcss";
+@plugin "daisyui"{
+   themes: sunset --default, dark --prefersdark;
+ }
+
+/* You can add global styles to this file, and also import other style files */
