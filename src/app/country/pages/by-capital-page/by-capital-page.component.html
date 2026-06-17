@@ -1,1 +1,11 @@
-<h2>By Capital</h2>
+<section class="flex flex-row gap-2 mt-2">
+    <input 
+        type="text" 
+        placeholder="Buscar país por capital..." 
+        class="input input-bordered w-56 mr-2" 
+        autofocus
+        #txtSearch
+        (keyup.enter)="onSearch(txtSearch.value)"
+    />
+    <button class="btn btn-primary" (click)="onSearch(txtSearch.value)">Buscar</button>
+</section>
